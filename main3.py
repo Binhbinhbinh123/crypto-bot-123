@@ -113,6 +113,6 @@ def run_bot():
                         print(f"[-] No signal for {coin} {tf}")
                 except Exception as e:
                     print(f"[!] Error with {coin} {tf}: {e}")
-        time.sleep(INTERVAL_SEC_
+        time.sleep(INTERVAL_SECONDS)
 
 
